@@ -1,314 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--========== BOX ICONS ==========-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
 
     <!--========== CSS ==========-->
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 
     <title>RIKI - Resume</title>
     <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
-        <nav class="nav bd-container">
-            <a href="#" class="nav__logo">Riki</a>
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Riki</a>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class='bx bx-home nav__icon'></i>Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#profile" class="nav__link">
-                            <i class='bx bx-user nav__icon'></i>Profile
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#education" class="nav__link">
-                            <i class='bx bx-book nav__icon'></i>Education
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class='bx bx-receipt nav__icon'></i>Skills
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#experience" class="nav__link">
-                            <i class='bx bx-briefcase-alt nav__icon'></i>Experience
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#certificates" class="nav__link">
-                            <i class='bx bx-award nav__icon'></i>Certificates
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#references" class="nav__link">
-                            <i class='bx bx-link-external nav__icon'></i>References
-                        </a>
-                    </li>
-                </ul>
-            </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Certificates
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#references" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i>References
+              </a>
+            </li>
+          </ul>
+        </div>
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-grid-alt'></i>
-            </div>
-        </nav>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
     </header>
 
     <main class="l-main bd-container">
-        <!-- All elements within this div, is generated in PDF -->
-        <div class="resume" id="area-cv">
-            <div class="resume__left">
-                <!--========== HOME ==========-->
-                <section class="home" id="home">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img
+                  src="assets/img/profile.jpeg"
+                  alt="profile"
+                  class="home__img"
+                />
 
-                    <div class="home__container section bd-grid">
-                        <div class="home__data bd-grid">
-                            <img src="assets/img/profile.jpeg" alt="profile" class="home__img">
+                <h1 class="home__title">RIKI</h1>
+                <h3 class="home__profession">Web developer</h3>
 
-                            <h1 class="home__title">RIKI</h1>
-                            <h3 class="home__profession">Web developer</h3>
+                <div>
+                  <a
+                    href="assets/img/riki.pdf"
+                    download=""
+                    class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
 
-                            <div>
-                                <a href="assets/img/riki.pdf" download="" class="home__button-movil">Download</a>
-                            </div>
-                        </div>
-
-                        <div class="home__address bd-grid">
-                            <span class="home__information">
-                                <i class="bx bx-map home__icon"></i> DKI Jakarta - Indonesia
-                            </span>
-                            <span class="home__information">
-                                <i class="bx bx-envelope home__icon"></i> riki.proc@gmail.com
-                            </span>
-                            <span class="home__information">
-                                <i class="bx bx-phone home__icon"></i> +6282242103232
-                            </span>
-                        </div>
-                    </div>
-
-
-                    <!-- Theme change button -->
-                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
-
-                    <!-- Button to generate and download the pdf. Available for desktop. -->
-                    <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
-                </section>
-
-
-                <!--========== SOCIAL ==========-->
-                <section class="social section">
-                    <h2 class="section-title">SOCIAL</h2>
-
-                    <div class="social__container bd-grid">
-                        <a href="https://www.linkedin.com/in/rikinotnull/" target="_blank" class="social__link">
-                            <i class="bx bxl-linkedin-square social__icon"></i> @rikinotnull
-                        </a>
-                        <a href="https://www.instagram.com/rikinotnull/" target="_blank" class="social__link">
-                            <i class="bx bxl-instagram social__icon"></i> @rikinotnull
-                        </a>
-                    </div>
-                </section>
-
-                <!--========== PROFILE ==========-->
-                <section class="profile section" id="profile">
-                    <h2 class="section-title">Profile</h2>
-
-                    <p class="profile__description">
-                        Riki, 25 tahun. Senior Front-end di PT Cyberindo Sinergi Sistem. Domisili di Jakarta Pusat, DKI
-                        Jakarta, Indonesia.
-                    </p>
-                </section>
-
-                <!--========== EDUCATION ==========-->
-                <section class="education section" id="education">
-                    <h2 class="section-title">Education</h2>
-
-                    <div class="education__container bd-grid">
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">S1 TEKNIK INFORMATION</h3>
-                                <span class="education__studies">Universitas Prima Indonesia</span>
-                                <span class="education__year">2014 - 2018</span>
-                            </div>
-                        </div>
-
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                            </div>
-
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">IPA</h3>
-                                <span class="education__studies">SMA Methodist 2 Palembang</span>
-                                <span class="education__year">2011 - 2014</span>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </section>
-
-
-                <!--========== SKILLS  ==========-->
-                <section class="skills section" id="skills">
-                    <h2 class="section-title">Skills</h2>
-
-                    <div class="skills__content bd-grid">
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> Html
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> Css
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> Sass/Scss
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> JavaScript
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> TypeScript
-                            </li>
-                        </ul>
-
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> Angular
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> ReactJS
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> Java
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> SQL
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> DKI Jakarta - Indonesia
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i> riki.proc@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> +6282242103232
+                </span>
+              </div>
             </div>
 
-            <div class="resume__right">
-                <!--========== EXPERIENCE ==========-->
-                <section class="experience section" id="experience">
-                    <h2 class="section-title">Experience</h2>
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
 
-                    <div class="experience__container bd-grid">
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <span class="experience__line"></span>
-                            </div>
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
 
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">Senior Front-end</h3>
-                                <span class="experience__company">2019 - sekarang | PT Cyberindo Sinergi Sistem</span>
-                                <p class="experience__description">
-                                    Membangun antarmuka aplikasi menggunakan framework Angular sesuai dengan dokumentasi
-                                    API yang
-                                    tersedia.
-                                </p>
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
 
-                            </div>
-                        </div>
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/rikinotnull/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> @rikinotnull
+              </a>
+              <a
+                href="https://www.instagram.com/rikinotnull/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-instagram social__icon"></i> @rikinotnull
+              </a>
+            </div>
+          </section>
 
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <span class="experience__line"></span>
-                            </div>
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
 
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">Software Engineering</h3>
-                                <span class="experience__company">2019 | PT Kinarya Alihdaya Mandiri</span>
-                                <p class="experience__description">
-                                    Membangun aplikasi ANT menggunakan
-                                    CodeIgniter 3 dan database MariaDB sesuai dengan permintaan Telkomsel. Berkomunikasi
-                                    dengan para vendor tentang kendala aplikasi dan membuat API untuk vendor.
-                                </p>
-                            </div>
-                        </div>
+            <p class="profile__description">
+              Riki, 27 tahun. Senior Fullstack di PT Enam Dua Teknologi.
+              Domisili di Jakarta Pusat, DKI Jakarta, Indonesia.
+            </p>
+          </section>
 
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <span class="experience__line"></span>
-                            </div>
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
 
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">CRM</h3>
-                                <span class="experience__company">2018 - 2019 | Thamrin Brothers</span>
-                                <p class="experience__description">
-                                    Mengolah data SAMSAT dengan excel untuk menghasilkan data perbandingan
-                                    penjualan motor/mobil yang digunakan untuk melakukan forecasting
-                                    dan mengkategorikan customer ke level tertentu.
-                                </p>
-                            </div>
-                        </div>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
 
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                            </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">S1 TEKNIK INFORMATION</h3>
+                  <span class="education__studies"
+                    >Universitas Prima Indonesia</span
+                  >
+                  <span class="education__year">2014 - 2018</span>
+                </div>
+              </div>
 
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">Software Developer</h3>
-                                <span class="experience__company">2016 - 2018 | PT Mitra Pasifik Solusindo</span>
-                                <p class="experience__description">
-                                    Membangun aplikasi HRIS dengan menggunakan ASP.net dan database SQLServer.
-                                </p>
-                            </div>
-                        </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">IPA</h3>
+                  <span class="education__studies"
+                    >SMA Methodist 2 Palembang</span
+                  >
+                  <span class="education__year">2011 - 2014</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> JS/TS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Java
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> PHP
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> SQL
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Laravel
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Angular
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> ReactJS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> NextJS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> NestJS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Spring
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Senior Fullstack</h3>
+                  <span class="experience__company"
+                    >2022 - sekarang | PT Enam Dua Teknologi</span
+                  >
+                  <div class="education__container bd-grid">
+                    <div class="education__content">
+                      <div class="education__time">
+                        <span class="education__rounder"></span>
+                      </div>
+
+                      <div class="education__data bd-grid">
+                        <h3 class="education__title">djurnee.id</h3>
+                        <span class="experience__description"
+                          >Aplikasi administrasi.</span
+                        >
+                      </div>
                     </div>
-                </section>
+                  </div>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
 
-                <!--========== CERTIFICATES ==========-->
-                <section class="certificate section" id="certificates">
-                    <h2 class="section-title">Certificates</h2>
-
-                    <div class="certificate__container bd-grid">
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">Lulusan Terbaik Universitas Prima Indonesia (2018)</h3>
-                            <div class="certificate__description">Penghargaan sebagai lulusan terbaik di Universitas
-                                Prima Indonesia dengan IPK 3.71</div>
-                        </div>
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">Juara 1 Kompetisi Film Pendek 2014 Palembang (2014)</h3>
-                            <div class="certificate__description">Juara 1 Kompetisi Film Pendek 2014 tingkat kabupaten
-                                yang diadakan UBM dan Kompas TV</div>
-                        </div>
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">Complete the Microsoft Office Short Course Program (2014)
-                            </h3>
-                            <div class="certificate__description">Sertifikat kelulusan kursus singkat microsoft
-                                office yang diadakan PalComTech</div>
-                        </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Frontend</h3>
+                  <span class="experience__company">2022 | Freelance</span>
+                  <div class="education__content">
+                    <div class="education__time">
+                      <span class="education__rounder"></span>
+                      <span class="education__line"></span>
                     </div>
-                </section>
 
-                <!--========== REFERENCES ==========-->
-<!--                 <section class="references section" id="references">
+                    <div class="education__data bd-grid">
+                      <h3 class="education__title">gohyang bravo</h3>
+                      <span class="experience__description"
+                        >Aplikasi donation dan campaign asal korea.</span
+                      >
+                    </div>
+                  </div>
+                  <div class="education__container bd-grid">
+                    <div class="education__content">
+                      <div class="education__time">
+                        <span class="education__rounder"></span>
+                      </div>
+
+                      <div class="education__data bd-grid">
+                        <h3 class="education__title">gooddreamer.id</h3>
+                        <span class="experience__description"
+                          >Aplikasi baca novel online gratis.</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Software Engineering</h3>
+                  <span class="experience__company"
+                    >2021 - 2022 | PT Brilliann Nuswantara Bhagawanta</span
+                  >
+                  <div class="education__container bd-grid">
+                    <div class="education__content">
+                      <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                      </div>
+
+                      <div class="education__data bd-grid">
+                        <h3 class="education__title">laba.id</h3>
+                        <span class="experience__description"
+                          >Aplikasi accounting system.</span
+                        >
+                      </div>
+                    </div>
+                    <div class="education__content">
+                      <div class="education__time">
+                        <span class="education__rounder"></span>
+                      </div>
+
+                      <div class="education__data bd-grid">
+                        <h3 class="education__title">lunapos.id</h3>
+                        <span class="experience__description"
+                          >Aplikasi Point of Sales.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Senior Fullstack</h3>
+                  <span class="experience__company"
+                    >2019 - 2021 | PT Cyberindo Sinergi Sistem</span
+                  >
+                  <div class="education__container bd-grid">
+                    <div class="education__content">
+                      <div class="education__time">
+                        <span class="education__rounder"></span>
+                      </div>
+
+                      <div class="education__data bd-grid">
+                        <h3 class="education__title">rantai.tech</h3>
+                        <span class="experience__description"
+                          >Aplikasi omnichannel yang terintegrasi dengan
+                          tokopedia, bukalapak, lazada dan shopee.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Software Engineering</h3>
+                  <span class="experience__company"
+                    >2019 | PT Kinarya Alihdaya Mandiri</span
+                  >
+                  <div class="education__container bd-grid">
+                    <div class="education__content">
+                      <div class="education__time">
+                        <span class="education__rounder"></span>
+                      </div>
+
+                      <div class="education__data bd-grid">
+                        <h3 class="education__title">tpas.telkomsel.co.id</h3>
+                        <span class="experience__description"
+                          >Aplikasi pengadaian tower dan monitoring tower
+                          telkomsel.</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Software Engineering</h3>
+                  <span class="experience__company"
+                    >2016 - 2018 | PT Mitra Pasifik Solusindo</span
+                  >
+                  <div class="education__container bd-grid">
+                    <div class="education__content">
+                      <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                      </div>
+
+                      <div class="education__data bd-grid">
+                        <h3 class="education__title">programgaji.com</h3>
+                        <span class="experience__description"
+                          >Aplikasi HRIS.</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="education__content">
+                      <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                      </div>
+
+                      <div class="education__data bd-grid">
+                        <h3 class="education__title">bisaccounting.com</h3>
+                        <span class="experience__description"
+                          >Aplikasi distribusi dan accounting system.</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="education__content">
+                      <div class="education__time">
+                        <span class="education__rounder"></span>
+                      </div>
+
+                      <div class="education__data bd-grid">
+                        <h3 class="education__title">bosspintar.com</h3>
+                        <span class="experience__description"
+                          >Aplikasi absensi dan monitoring pegawai.</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates & Appreciation</h2>
+
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Lulusan Terbaik Universitas Prima Indonesia (2018)
+                </h3>
+                <div class="certificate__description">
+                  Penghargaan sebagai lulusan terbaik di Universitas Prima
+                  Indonesia dengan IPK 3.71
+                </div>
+              </div>
+              <!-- <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Juara 1 Kompetisi Film Pendek 2014 Palembang (2014)
+                </h3>
+                <div class="certificate__description">
+                  Juara 1 Kompetisi Film Pendek 2014 tingkat kabupaten yang
+                  diadakan UBM dan Kompas TV
+                </div>
+              </div> -->
+              <!-- <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Complete the Microsoft Office Short Course Program (2014)
+                </h3>
+                <div class="certificate__description">
+                  Sertifikat kelulusan kursus singkat microsoft office yang
+                  diadakan PalComTech
+                </div>
+              </div> -->
+            </div>
+          </section>
+
+          <!--========== REFERENCES ==========-->
+          <!--                 <section class="references section" id="references">
                     <h2 class="section-title">References</h2>
 
                     <div class="references__container bd-grid">
@@ -331,57 +521,56 @@
                     </div>
                 </section> -->
 
-                <!--========== LANGUAGES ==========-->
-                <section class="languages section">
-                    <h2 class="section-title">Languages</h2>
+          <!--========== LANGUAGES ==========-->
+          <!-- <section class="languages section">
+            <h2 class="section-title">Languages</h2>
 
-                    <div class="languages__container">
-                        <ul class="languages__content bd-grid">
-                            <li class="languages__name">
-                                <span class="languages__circle"></span> Indonesia
-                            </li>
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Indonesia
+                </li>
 
-                            <li class="languages__name">
-                                <span class="languages__circle"></span> English
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-                <!--========== INTERESTS ==========-->
-                <section class="interests section">
-                    <h2 class="section-title">Interests</h2>
-
-                    <div class="interests__container bd-grid">
-                        <div class="interests__content">
-                            <i class='bx bx-basketball interests__icon'></i>
-                            <span class="interests__name">Bola Basket</span>
-                        </div>
-
-                        <div class="interests__content">
-                            <i class='bx bx-book interests__icon'></i>
-                            <span class="interests__name">Belajar</span>
-                        </div>
-
-                        <div class="interests__content">
-                            <i class='bx bx-shopping-bag interests__icon'></i>
-                            <span class="interests__name">Thrifting</span>
-                        </div>
-
-                        <div class="interests__content">
-                            <i class='bx bx-cookie interests__icon'></i>
-                            <span class="interests__name">Kuliner</span>
-                        </div>
-
-                    </div>
-                </section>
+                <li class="languages__name">
+                  <span class="languages__circle"></span> English
+                </li>
+              </ul>
             </div>
+          </section> -->
+
+          <!--========== INTERESTS ==========-->
+          <!-- <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-basketball interests__icon"></i>
+                <span class="interests__name">Bola Basket</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name">Belajar</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-shopping-bag interests__icon"></i>
+                <span class="interests__name">Thrifting</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-cookie interests__icon"></i>
+                <span class="interests__name">Kuliner</span>
+              </div>
+            </div>
+          </section> -->
         </div>
+      </div>
     </main>
 
     <!--========== SCROLL TOP ==========-->
     <a href="#" class="scrolltop" id="scroll-top">
-        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
     </a>
 
     <!--========== HTML2PDF ==========-->
@@ -389,6 +578,5 @@
 
     <!--========== MAIN JS ==========-->
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
